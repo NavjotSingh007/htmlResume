@@ -1,0 +1,82 @@
+:root{
+    --test: font-size: 25pt;;
+}
+
+@page{
+    /* top right bottom left */
+    margin: 10mm 10mm 10mm 15mm;
+}
+
+ul{
+    margin-bottom: 1pt;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerLeft{
+    text-align: left;
+    width:33.33333%;
+}
+.headerCenter{
+    text-align: center;
+    width:33.33333%;
+}
+.headerRight{
+    text-align: right;
+    width:33.33333%;
+}
+.empName{
+    font-size: 28pt;
+    font-weight: 500;
+}
+
+/* section */
+.section{
+    margin-top: 15pt;
+}
+.sectionHeading{
+    font-size: 16pt;
+    font-weight: 500;
+}
+.sectionHr{
+    margin-bottom: 0.3pt;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+.sectionDuration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.sectionDurationLeft{
+    width:33.33333%;
+    text-align: left;
+    font-weight: inherit;
+}
+.sectionDurationCenter{
+    width:33.33333%;
+    text-align: center;
+    font-weight: inherit;
+}
+.sectionDurationRight{
+    width:33.33333%;
+    text-align: right;
+    font-weight: inherit;
+}
+.subSection{
+    margin-left: 5pt;
+}
+.subSectionMargin{
+    margin-top: 6pt;
+}
+
+.utilized{
+    display: inline;
+    border-bottom: 1pt solid rgba(0,0,0,.3)
+    /* text-decoration: underline; */
+}
