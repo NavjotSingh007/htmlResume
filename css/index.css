@@ -52,6 +52,7 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     font-weight: 500;
+    margin-bottom: -4pt;
 }
 .sectionDurationLeft{
     width:33.33333%;
@@ -75,8 +76,12 @@ ul{
     margin-top: 6pt;
 }
 
-.utilized{
+/* project */
+.projectMargin{
+    margin-top: 0;
+}
+
+.underline{
     display: inline;
     border-bottom: 1pt solid rgba(0,0,0,.3)
-    /* text-decoration: underline; */
 }
