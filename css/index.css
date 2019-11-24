@@ -4,7 +4,8 @@
 
 @page{
     /* top right bottom left */
-    margin: 10mm 10mm 10mm 15mm;
+    /* margin: 10mm 10mm 10mm 15mm; */
+    margin: 7mm 10mm 10mm 15mm;
 }
 
 ul{
@@ -36,7 +37,8 @@ ul{
 
 /* section */
 .section{
-    margin-top: 15pt;
+    /* margin-top: 15pt; */
+    margin-top: 10pt;
 }
 .sectionHeading{
     font-size: 16pt;
