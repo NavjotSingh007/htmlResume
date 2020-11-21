@@ -92,3 +92,10 @@ ul{
     font-style: italic;
     font-weight: 500;
 }
+
+@media print {
+    .pageBreak {
+        page-break-after: always;
+    }
+
+}
