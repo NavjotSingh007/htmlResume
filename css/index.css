@@ -99,3 +99,10 @@ ul{
     }
 
 }
+
+.textIconAlignLeft {
+    margin-right: 5px;
+}
+.textIconAlignRight {
+    margin-left: 8px;
+}
