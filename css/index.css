@@ -38,7 +38,8 @@ ul{
 /* section */
 .section{
     /* margin-top: 15pt; */
-    margin-top: 10pt;
+    /* margin-top: 10pt; */
+    margin-top: 7pt;
 }
 .sectionHeading{
     font-size: 16pt;
